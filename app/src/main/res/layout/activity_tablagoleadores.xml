@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TablagoleadoresActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tablajugador"
+                        android:layout_width="153dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Jugador"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tablaClub"
+                        android:layout_width="99dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Club"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tablaGoles"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="Goles"
+                        android:textColor="#FFF"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="345dp"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub1"
+                        android:layout_width="91dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="345dp"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador2"
+                        android:layout_width="141dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador3"
+                        android:layout_width="90dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador4"
+                        android:layout_width="86dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador5"
+                        android:layout_width="109dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador6"
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador7"
+                        android:layout_width="110dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#eef2ff">
+
+                    <TextView
+                        android:id="@+id/tJugador8"
+                        android:layout_width="129dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tJugador9"
+                        android:layout_width="141dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tJugador10"
+                        android:layout_width="158dp"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="60dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="Jugador" />
+
+                    <TextView
+                        android:id="@+id/tClub10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="CLUB"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tGoles10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingHorizontal="10dp"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:text="1" />
+
+                </TableRow>
+
+
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

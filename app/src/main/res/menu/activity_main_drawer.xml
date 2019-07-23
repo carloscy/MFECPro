@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/noticiasico"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/nav_resultados"
+            android:icon="@drawable/result"
+            android:title="Resultados" />
+        <item
+            android:id="@+id/nav_tabla"
+            android:icon="@drawable/tablaico"
+            android:title="Tabla" />
+        <item
+            android:id="@+id/nav_goleadores"
+            android:icon="@drawable/goleadores"
+            android:title="Goleadores" />
+    </group>
+<!--
+    <item android:title="Acceso">
+        <menu>
+            <item
+                android:id="@+id/nav_acceso"
+                android:icon="@drawable/loginico"
+                android:title="Acceder" />
+            <item
+                android:id="@+id/nav_invitado"
+                android:icon="@drawable/invitado"
+                android:title="Invitado" />
+        </menu>
+    </item>
+-->
+</menu>

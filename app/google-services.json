@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "266313466784",
+    "firebase_url": "https://bdmarcarfut.firebaseio.com",
+    "project_id": "bdmarcarfut",
+    "storage_bucket": "bdmarcarfut.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:266313466784:android:fbe95854bf67967e",
+        "android_client_info": {
+          "package_name": "ec.marcafut.marcafut0011"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "266313466784-9ghqhaqc03786up17s2t2mj50sbktf4e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ec.marcafut.marcafut0011",
+            "certificate_hash": "08b6fad6f2c0b33d6a7c4adaebb4e1604a7f9345"
+          }
+        },
+        {
+          "client_id": "266313466784-jp0ccfvcpnklkevfhdq8kilp3269r1q4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpVXd2FjNj-JShA2cWj_5dFxlQWKNZZYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "266313466784-jp0ccfvcpnklkevfhdq8kilp3269r1q4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

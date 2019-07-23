@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MarcaFut EC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dnligapro">Noticias de la Liga Pro</string>
+    <string name="dnfef">Noticias de la FEF</string>
+    <string name="descrip"></string>
+
+    <string name="ingemail">Email</string>
+    <string name="ingepass">Contraseña</string>
+    <string name="nombrer">Nombre</string>
+    <string name="btnregistrar">Registrar</string>
+    <string name="btnacceder">Iniciar Sesión</string>
+    <string name="btncerrar">Cerrar Sesión</string>
+    <string name="texyala">Ya tengo una cuenta</string>
+    <string name="textaccede">Accede a MarcaFut EC con tu Email</string>
+    <string name="textcrea">Registro MarcaFut EC</string>
+
+    <string name="textnombuser">Nombre de usuario</string>
+    <string name="btntexreestablecer">Reestablecer</string>
+    <string name="btntexolvide">Olvide mi contraseña</string>
+</resources>

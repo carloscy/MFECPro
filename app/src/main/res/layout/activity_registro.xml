@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".Acceso.RegistroActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textcrea"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="60dp"/>
+
+        <ImageView
+            android:id="@+id/logoregistro"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/marcafutlogo"
+            android:padding="10dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/nombrer"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="233dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/ingemail"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="233dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="@string/ingepass"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="233dp"
+            android:layout_marginTop="10dp"/>
+
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/btnregistrar"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorBackground"/>
+
+        <Button
+            android:id="@+id/btnYala"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/texyala"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorBackground"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
